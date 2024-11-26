@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Job Listings Analysis</h1>
+    </header>
+    <main>
+        <section id="controls">
+            <input type="file" id="fileInput" accept=".json">
+            <div id="filters">
+                <label for="filterLevel">Level:</label>
+                <select id="filterLevel"></select>
+                <label for="filterType">Type:</label>
+                <select id="filterType"></select>
+                <label for="filterSkill">Skill:</label>
+                <select id="filterSkill"></select>
+            </div>
+            <div id="sortOptions">
+                <label for="sortBy">Sort By:</label>
+                <select id="sortBy">
+                    <option value="title">Title</option>
+                    <option value="postedTime">Posted Time</option>
+                </select>
+            </div>
+            <button id="clearFilters">Clear All</button>
+        </section>
+        <section id="jobList"></section>
+    </main>
+
+    <!-- Modal Structure -->
+    <div id="jobModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalDetails"></p>
+            <p id="modalType"></p>
+            <p id="modalLevel"></p>
+            <p id="modalSkill"></p>
+            <p id="modalPostedTime"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Desktop Software Development",
+        "postedTime": "2024-11-26T10:08:00Z",
+        "type": "Ongoing project",
+        "level": "Intermediate",
+        "skill": "Standalone Application Jobs",
+        "detail": "Freelancer that develop and manage desktop, mobile application, and web development."
+    },
+    {
+        "title": "Include Firebase Chat on My Website",
+        "postedTime": "2024-11-26T09:52:00Z",
+        "type": "One-time project",
+        "level": "Entry level",
+        "skill": "PHP Jobs",
+        "detail": "Implement Firebase chat on a PHP-based website. Includes integration and displaying chat messages."
+    },
+    {
+        "title": "QA for a Website",
+        "postedTime": "2024-11-26T09:51:00Z",
+        "type": "One-time project",
+        "level": "Intermediate",
+        "skill": "Automated Testing Jobs",
+        "detail": "Collaborate with QA engineers to test website functionality and document test cases and bugs."
+    },
+    {
+        "title": "Redesign SaSS Sales Page",
+        "postedTime": "2024-11-26T09:50:00Z",
+        "type": "One-time project",
+        "level": "Intermediate",
+        "skill": "Wireframes Jobs",
+        "detail": "Redesign the SaaS sales page and feature pages. Deliverables include a PSD design."
+    },
+    {
+        "title": "Python API Call Development",
+        "postedTime": "2024-11-26T09:49:00Z",
+        "type": "Ongoing project",
+        "level": "Intermediate",
+        "skill": "Python Jobs",
+        "detail": "Develop Python functions to call private APIs and handle secure HTTP requests."
+    },
+    {
+        "title": "Design Dashboard Templates",
+        "postedTime": "2024-11-26T09:36:00Z",
+        "type": "Ongoing project",
+        "level": "Entry level",
+        "skill": "API Integration Jobs",
+        "detail": "Design dashboards for data visualization using Peakboard Designer. Templates will be used for website integration."
+    },
+    {
+        "title": "HTML to PDF Template Modifications",
+        "postedTime": "2024-11-26T09:13:00Z",
+        "type": "One-time project",
+        "level": "Intermediate",
+        "skill": "Web Design Jobs",
+        "detail": "Modify Django templates for PDF generation, matching a new design provided in a DOCX document."
+    },
+    {
+        "title": "Web Development Project",
+        "postedTime": "2024-11-26T09:09:00Z",
+        "type": "One-time project",
+        "level": "Entry level",
+        "skill": "No Data",
+        "detail": "Develop a website similar to a provided example for job application forms and resources."
+    },
+    {
+        "title": "HTML Mobile Theme Developer",
+        "postedTime": "2024-11-26T09:07:00Z",
+        "type": "One-time project",
+        "level": "Intermediate",
+        "skill": "Web Application Jobs",
+        "detail": "Create a mobile-friendly HTML theme using Bootstrap 4."
+    },
+    {
+        "title": "Native Mobile App Developer",
+        "postedTime": "2024-11-26T09:04:00Z",
+        "type": "Ongoing project",
+        "level": "Intermediate",
+        "skill": "Phone Jobs",
+        "detail": "Upgrade mobile apps from web view to native iOS and Android apps using Clean Architecture."
+    }
+]

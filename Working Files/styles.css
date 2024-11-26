@@ -1,0 +1,128 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background-color: #ebeaff;
+    color: #2c3e50; /* Darker text for better contrast */
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #FF2929; /* Keeps the red color for header */
+}
+
+/* Controls */
+#controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background-color: #3D3BF3;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff; /* Light text for better readability on blue */
+}
+
+/* Filters & Sort Options */
+#filters, #sortOptions {
+    display: flex;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff; /* Light text for labels */
+}
+
+select {
+    padding: 8px;
+    border: 1px solid #bdc3c7;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    width: 200px;
+    color: #333; /* Darker text for better contrast */
+}
+
+/* Job Listings */
+#jobList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Job Card */
+.job {
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    padding: 15px;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    color: #2c3e50; /* Dark text for job card */
+}
+
+/* Hover Effect for the Job Card */
+.job:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow to make it pop */
+    background-color: #a3c8ff; /* Subtle highlight on hover */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+/* Modal Styles */
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 8px;
+    color: #333; /* Dark text in modal */
+}
+
+.close {
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    float: right;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Button Styles */
+button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
